@@ -11,6 +11,7 @@ body {
   margin: 0%;
   padding: 50px;
 }
+.Header{display:inline;}
 
 .container {
   display: flex;
