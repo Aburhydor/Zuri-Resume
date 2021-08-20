@@ -18,7 +18,7 @@ body {
 }
 
 .container {
- /* display: flex;*/
+ display: flex;
   padding-left: 20px;
   padding-right: 20px;
   height: calc(100% - 100px);
@@ -49,3 +49,28 @@ body {
   margin: 20px;
   padding: 50px;
 }/*# sourceMappingURL=resume.css.map */
+@media only screen and (max-width : 768px) {
+  body{
+      margin: 0;
+  }
+      .main-head {
+       display: block;
+       width: 100%;
+       padding: 20px;
+   }
+   .container{
+       display: block;
+       width: 100%;
+       padding: 0;
+       justify-content: center;
+       
+   }
+   #imag{
+       display: block;
+       width: 100%;
+   }
+   .footer{
+       display: block;
+       width: 100%;
+   }  
+  }
