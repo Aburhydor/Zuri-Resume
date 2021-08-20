@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-head {
+  background: green;
+  color: white;
+  text-align: center;
+  height: 100px;
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: calc(100% - 100px);
+}
+.container h1 {
+  font-size: 32px;
+}
+.container h2 {
+  font-size: 20px;
+}
+.container h3 {
+  font-size: 16px;
+}
+.container p {
+  font-size: 14px;
+}
+
+#imag {
+  width: 50px;
+  height: 50px;
+}
+
+#name1 {
+  color: white;
+}
+
+.footer {
+  margin: 20px;
+  padding: 50px;
+}/*# sourceMappingURL=resume.css.map */
