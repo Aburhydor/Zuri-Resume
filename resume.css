@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  display: flex;
+ /* display: flex;*/
   padding-left: 20px;
   padding-right: 20px;
   height: calc(100% - 100px);
